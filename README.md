@@ -34,3 +34,7 @@ Sample repo for rails + docker + docker-compose + dip, with respect to Evilmarti
 12. `dip rails s` to start Rails.
 13. Open `http://localhost:3000/` on your browser to show the welcome page.
 
+## Rails new
+```
+rails new . –database=postgresql –skip-active-storage –skip-action-mailer –skip-active-job –skip-action-cable –skip-action-mailbox –skip-action-text –skip-turbolinks –skip-sprockets –skip-spring –skip-bootsnap –webpacker –webpack=react
+```

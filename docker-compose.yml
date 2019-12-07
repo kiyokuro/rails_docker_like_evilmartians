@@ -11,7 +11,7 @@ services:
         NODE_MAJOR: '11'
         YARN_VERSION: '1.19.1'
         BUNDLER_VERSION: '2.0.2'
-    image: yourapp_docker:1.0.0
+    image: docker_rails:1.0.0
     tmpfs:
       - /tmp
 
